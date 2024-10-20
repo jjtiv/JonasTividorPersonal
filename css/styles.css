@@ -29,13 +29,13 @@ body{
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: blue;
+    background-color: green;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .button:hover{
-    background-color: darkblue;
+    background-color: darkgreen;
 }
 .imageContainer{
     display: inline-block;
