@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#landingDiv{
+    overflow: hidden;
+}
+
+#landingImg {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#logo {
+    width: 5%;
+    height: auto;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #01205b;
+    color: white;
+    padding: 1rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar a:hover {
+    color: #9e9fa1;
+}
+
+#navbar #leftNavDiv {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+}
+
+#navbar #rightNavDiv {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+    padding-right: 2%;
+}
+
+
+#navbar.visible {
+    opacity: 1;
+    pointer-events: auto;      
+}
+
+#navlogo {
+    width: 6%;
+    height: auto;
+}
+
+
