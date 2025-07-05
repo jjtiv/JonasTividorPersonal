@@ -7,20 +7,47 @@ a {
     text-decoration: none;
 }
 
-#landingDiv{
-    overflow: hidden;
-}
-
-#landingImg {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-}
-
 #logo {
     width: 5%;
     height: auto;
+}
+
+#textDiv{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    color: #160758;
+}
+
+#name {
+    display: block;
+    font-size: 60px;
+    padding-left: 2%;
+    align-self: left;
+    color: #01205b;
+}
+
+#devup {
+    font-size: 300px;
+    margin-top: -50px;
+    z-index: 5;
+}
+
+#devnup {
+    font-size: 300px;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+#tempImg {
+    position: absolute;
+    padding-left: 50%;
+    margin-top: 6.5%;
+    height: 700px;
+    width: 800px;
+    
 }
 
 #navbar {
