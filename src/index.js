@@ -1,3 +1,6 @@
+import './css/index.css';
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const navbar = document.getElementById("navbar");
 
