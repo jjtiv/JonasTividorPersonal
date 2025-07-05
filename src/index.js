@@ -1,4 +1,5 @@
 import './css/index.css';
+import './images/';
 
 
 document.addEventListener("DOMContentLoaded", () => {
