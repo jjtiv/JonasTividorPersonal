@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/jjtiv/jjtiv.github.io#readme",
   "description": "",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1"
   }
