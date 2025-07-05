@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/jjtiv/jjtiv.github.io/issues"
   },
-  "homepage": "https://github.com/jjtiv/jjtiv.github.io#readme",
+  "homepage": "https://jjtiv.github.io/JonasTividorPersonal",
   "description": "",
   "devDependencies": {
     "css-loader": "^7.1.2",
