@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://jjtiv.github.io/./src/index.js?");
+eval("document.addEventListener(\"DOMContentLoaded\", () => {\r\n    const navbar = document.getElementById(\"navbar\");\r\n\r\n    window.addEventListener(\"scroll\", () => {\r\n        if (window.scrollY > 0) {\r\n            navbar.classList.add(\"visible\");\r\n        } else {\r\n            navbar.classList.remove(\"visible\");\r\n        }\r\n    });\r\n});\r\n\n\n//# sourceURL=webpack://jjtiv.github.io/./src/index.js?");
 
 /***/ })
 
