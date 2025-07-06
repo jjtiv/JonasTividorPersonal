@@ -13,12 +13,13 @@ a {
 }
 
 #initNavBar {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     color: #01205b;
     padding: 10px;
     padding-bottom: 0;
+    margin-bottom: -100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,6 +86,7 @@ a {
 #devnup {
     font-size: 300px;
     margin-top: -100px;
+    margin-bottom: -50px;
     user-select: none;
     z-index: 0;
 }

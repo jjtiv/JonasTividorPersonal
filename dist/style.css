@@ -7,10 +7,69 @@ a {
     text-decoration: none;
 }
 
+#landingDiv{
+    background-color: #b7c5df;
+    z-index: -25;
+}
+
+#initNavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #01205b;
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#initNavBar.visible {
+    opacity: 1;
+    pointer-events: auto;      
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 #logo {
-    width: 5%;
+    width: 15%;
     height: auto;
 }
+
+#name {
+    font-size: 2rem;
+    color: #01205b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#socials {
+    display: flex;
+    gap: 1rem;
+    padding-right: 2%;
+    font-size: 2rem;
+}
+
+.icon {
+    width: 60px;
+    height: auto;
+    filter: brightness(0) saturate(100%) invert(9%) sepia(81%) saturate(745%) hue-rotate(190deg) brightness(89%) contrast(94%);
+    transition: transform 0.2s;
+    
+}
+
+#github {
+    width: 57.2px;
+    margin-top: -4px
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
 
 #textDiv{
     overflow: hidden;
@@ -21,33 +80,43 @@ a {
     color: #160758;
 }
 
-#name {
-    display: block;
-    font-size: 60px;
-    padding-left: 2%;
-    align-self: left;
-    color: #01205b;
-}
-
 #devup {
     font-size: 300px;
-    margin-top: -50px;
+    margin-top: 50px;
     z-index: 5;
+    user-select: none;
 }
 
 #devnup {
     font-size: 300px;
     margin-top: -100px;
-    z-index: -1;
+    user-select: none;
+    z-index: 0;
 }
 
 #tempImg {
     position: absolute;
     padding-left: 50%;
-    margin-top: 6.5%;
-    height: 700px;
+    margin-top: 12%;
     width: 800px;
-    
+    height: auto;
+    z-index: 1;
+}
+
+#intro {
+    margin-left: 5%;
+    font-size: 46px;
+    margin-bottom: -15px;
+    color: #01205b;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#intro2 {
+    margin-left: 5%;
+    font-size: 26px;
+    padding-bottom: 700px;
+    color: #01205b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #navbar {
