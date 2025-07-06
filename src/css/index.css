@@ -215,20 +215,45 @@ h1 {
 
 
 #filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
 }
 
 #filters div {
-    min-width: 150px;
+  min-width: 150px;
+}
+
+#filters strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333;
 }
 
 #filters label {
-    display: block;
-    margin: 4px 0;
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.4rem 0.75rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+#filters input[type="checkbox"] {
+  display: none;
+}
+
+#filters input[type="checkbox"]:checked + label {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
 }
 
 .project-grid {

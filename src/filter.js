@@ -18,19 +18,24 @@ export function populateFilters(projects) {
   });
 
   const langContainer = document.getElementById('languageFilterContainer');
-  languageSet.forEach(lang => {
+  [...languageSet].forEach((lang, i) => {
+    const id = `lang-${i}`;
     langContainer.innerHTML += `
-      <label><input type="checkbox" name="language" value="${lang}"> ${lang}</label>
+      <input type="checkbox" name="language" value="${lang}" id="${id}" />
+      <label for="${id}">${lang}</label>
     `;
   });
 
   const classContainer = document.getElementById('classFilterContainer');
-  classSet.forEach(cls => {
+  [...classSet].forEach((cls, i) => {
+    const id = `class-${i}`;
     classContainer.innerHTML += `
-      <label><input type="checkbox" name="class" value="${cls}"> ${cls}</label>
+      <input type="checkbox" name="class" value="${cls}" id="${id}" />
+      <label for="${id}">${cls}</label>
     `;
   });
 }
+
 
 export function filterAndDisplay(projects) {
   const selectedLanguages = [...document.querySelectorAll('input[name="language"]:checked')].map(i => i.value);
