@@ -73,6 +73,7 @@ a {
     align-items: center;
     gap: 0;
     color: #160758;
+    
 }
 
 #devup {
@@ -96,10 +97,6 @@ a {
     margin-top: 12%;
     width: 800px;
     z-index: 1;
-}
-
-#introSection {
-    height: 850px;
 }
 
 #intro {
