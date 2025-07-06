@@ -24,6 +24,11 @@ a {
     align-items: center;
 }
 
+#initNavBar.visible {
+    opacity: 1;
+    pointer-events: auto;      
+}
+
 #brand {
     display: flex;
     align-items: center;
