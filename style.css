@@ -92,7 +92,7 @@ a {
 
 #tempImg {
     position: absolute;
-    margin-left: 0%;
+    margin-left: 50%;
     margin-top: 12%;
     width: 800px;
     z-index: 1;
