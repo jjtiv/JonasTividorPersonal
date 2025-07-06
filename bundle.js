@@ -1,1 +1,1 @@
-(()=>{"use strict";document.addEventListener("DOMContentLoaded",()=>{const e=document.getElementById("navbar");window.addEventListener("scroll",()=>{window.scrollY>0?e.classList.add("visible"):e.classList.remove("visible")})})})();
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",()=>{const e=document.getElementById("navbar"),s=document.getElementById("logo");window.addEventListener("scroll",()=>{window.scrollY>0?(e.classList.add("visible"),s.classList.remove("visible")):(e.classList.remove("visible"),s.classList.add("visble"))})})})();
