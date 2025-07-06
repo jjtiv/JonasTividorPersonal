@@ -10,23 +10,19 @@ a {
 #landingDiv{
     background-color: #b7c5df;
     z-index: -25;
+    width: 100%;
 }
 
 #initNavBar {
-    position: fixed;
+    position: relative;
     top: 0;
-    width: 100%;
+    width: 98%;
     color: #01205b;
-    padding: 10px;
     padding-bottom: 0;
+    margin-bottom: -100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#initNavBar.visible {
-    opacity: 1;
-    pointer-events: auto;      
 }
 
 #brand {
@@ -49,7 +45,6 @@ a {
 #socials {
     display: flex;
     gap: 1rem;
-    padding-right: 2%;
     font-size: 2rem;
 }
 
@@ -90,17 +85,21 @@ a {
 #devnup {
     font-size: 300px;
     margin-top: -100px;
+    margin-bottom: -50px;
     user-select: none;
     z-index: 0;
 }
 
 #tempImg {
     position: absolute;
-    padding-left: 50%;
+    margin-left: 50%;
     margin-top: 12%;
     width: 800px;
-    height: auto;
     z-index: 1;
+}
+
+#introSection {
+    height: 850px;
 }
 
 #intro {
@@ -114,7 +113,6 @@ a {
 #intro2 {
     margin-left: 5%;
     font-size: 26px;
-    padding-bottom: 700px;
     color: #01205b;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

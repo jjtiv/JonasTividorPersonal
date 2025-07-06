@@ -92,10 +92,14 @@ a {
 
 #tempImg {
     position: absolute;
-    padding-left: 50%;
+    margin-left: 50%;
     margin-top: 12%;
     width: 800px;
     z-index: 1;
+}
+
+#introSection {
+    height: 850px;
 }
 
 #intro {
