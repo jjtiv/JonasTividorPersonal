@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-fetch('../data/projects.csv')
+fetch('../dist/data/projects.csv')
   .then(res => res.text())
   .then(csv => {
     const projects = parseCSV(csv);
